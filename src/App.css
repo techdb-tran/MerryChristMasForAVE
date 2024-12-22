@@ -1,0 +1,61 @@
+.app-container {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  background-image: url('https://img.thuthuatphanmem.vn/uploads/2018/10/26/hinh-nen-giang-sinh-de-thuong_091727423.jpg');
+  background-size: 100% auto; /* Đảm bảo ảnh có chiều rộng 100%, chiều cao tự động */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+  background-position: center; /* Căn giữa ảnh */
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.keyword-input {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.keyword-input input {
+  height: 40px; /* Đặt chiều cao cho ô input */
+  padding: 0 10px; /* Thêm padding để căn chỉnh nội dung bên trong */
+  border-radius: 5px; /* Tạo viền bo tròn */
+  border: 1px solid #ccc; /* Đặt màu viền */
+  width: 80%; /* Đảm bảo ô input chiếm hết chiều rộng */
+}
+
+
+.keyword-result {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%; /* Đảm bảo phần tử chiếm hết chiều rộng của cha */
+  max-width: 400px; /* Bạn có thể điều chỉnh width và max-width theo nhu cầu */
+  margin: 10px auto; /* Để phần tử nằm ở giữa */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.keyword-result img {
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của phần tử cha */
+  height: auto; /* Giữ tỷ lệ của ảnh */
+  border-radius: 10px;
+  margin-bottom: 15px; /* Tạo khoảng cách giữa ảnh và nút */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d32f2f;
+}
